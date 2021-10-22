@@ -1,8 +1,30 @@
 * {
 	font-family: "Trebuchet MS";
-	background-color: #00DDCC;
+	text-align:center;
+}
+ul {
+	list-style-position: inside;
+}
+body {
+	background-color: #30D5C8;
 }
 h1 {
-	text-align:center;
 	background-color: #00FF00;
+}
+.navbar {
+    background:#006000;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
 }
